@@ -1,13 +1,6 @@
 Rails.application.routes.draw do
-  get 'dreamers/new'
 
-  get 'dreamers/edit'
-
-  get 'dreamers/index'
-
-  get 'dreamers/show'
-
-resources :dreams 
+resources :dreams, :dreamers
 
 root "dreams#index"
 

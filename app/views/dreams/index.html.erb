@@ -3,4 +3,7 @@
     <% @dreams.each do |dream|%>
       <li><h3><%= link_to dream.title, dream_path(dream)%></h3></li>
     <%end%>
-</ul>
+</ul> 
+
+<h2><%= link_to "Keep Dreaming", new_dream_path %>
+</h2>

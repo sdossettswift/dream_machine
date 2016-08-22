@@ -15,6 +15,11 @@ gem 'bourbon'
 gem 'neat'
 gem 'erd'
 gem 'simple_form'
+gem "minitest-rails"
+
+group :test do
+    gem "minitest-rails-capybara"
+end
 
 group :development, :test do
   gem 'byebug', platform: :mri
