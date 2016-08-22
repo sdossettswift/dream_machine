@@ -14,6 +14,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'bourbon'
 gem 'neat'
 gem 'erd'
+gem 'simple_form'
 
 group :development, :test do
   gem 'byebug', platform: :mri

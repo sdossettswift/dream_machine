@@ -1,0 +1,6 @@
+<h1> Dreams </h1>
+<ul>
+    <% @dreams.each do |dream|%>
+      <li><h3><%= link_to dream.title, dream_path(dream)%></h3></li>
+    <%end%>
+</ul>
